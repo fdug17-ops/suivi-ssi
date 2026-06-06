@@ -119,7 +119,7 @@ CRÉER une action :
   → Le Dashboard se met à jour immédiatement
 
 MODIFIER une action existante :
-  → Cliquer sur ➕ Nouvelle action
+  → Cliquer sur ➕ Nouvelle action (Dashboard) — même bouton que pour créer
   → Cliquer sur "🔍 Modifier une action existante"
   → Saisir l'ID (ex: ACT-003)
   → Les champs se pré-remplissent
