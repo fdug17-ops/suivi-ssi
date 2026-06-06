@@ -1,0 +1,9 @@
+# Fichiers de session Claude Code
+.claude/
+
+# Fichiers temporaires Excel (verrous d'ouverture)
+~$*.xlsx
+~$*.xlsm
+
+# Sauvegardes
+*.bak
