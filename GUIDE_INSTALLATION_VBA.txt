@@ -1,0 +1,159 @@
+=======================================================
+  SUIVI SSI — GUIDE D'INSTALLATION DES MACROS VBA
+=======================================================
+
+FICHIERS FOURNIS
+─────────────────
+  Suivi_SSI.xlsx   → le classeur (à renommer en .xlsm)
+  SSI_Macros.bas   → module principal (fonctions et logique)
+  frmAction.frm    → formulaire de saisie des actions
+
+
+═══════════════════════════════════════════════════════
+  ÉTAPE 1 — RENOMMER EN .xlsm
+═══════════════════════════════════════════════════════
+Fermez le fichier Suivi_SSI.xlsx.
+Renommez-le en : Suivi_SSI.xlsm
+(changez uniquement l'extension .xlsx → .xlsm)
+Rouvrez-le et autorisez les macros si Excel le demande.
+
+
+═══════════════════════════════════════════════════════
+  ÉTAPE 2 — OUVRIR L'ÉDITEUR VBA
+═══════════════════════════════════════════════════════
+Raccourci : Alt + F11
+(ou onglet Développeur → Visual Basic)
+
+Si l'onglet Développeur n'apparaît pas :
+  Fichier → Options → Personnaliser le ruban
+  → cochez "Développeur" → OK
+
+
+═══════════════════════════════════════════════════════
+  ÉTAPE 3 — IMPORTER LE MODULE SSI_Macros.bas
+═══════════════════════════════════════════════════════
+Dans l'éditeur VBA :
+  Fichier → Importer un fichier
+  → sélectionnez SSI_Macros.bas → Ouvrir
+
+Vous devriez voir apparaître dans l'arborescence :
+  VBAProject (Suivi_SSI.xlsm)
+    └── Modules
+         └── SSI_Macros
+
+
+═══════════════════════════════════════════════════════
+  ÉTAPE 4 — IMPORTER LE FORMULAIRE frmAction.frm
+═══════════════════════════════════════════════════════
+Dans l'éditeur VBA :
+  Fichier → Importer un fichier
+  → sélectionnez frmAction.frm → Ouvrir
+
+Vous devriez voir :
+  VBAProject (Suivi_SSI.xlsm)
+    └── Feuilles / Forms
+         └── frmAction
+
+IMPORTANT — Créer les contrôles du formulaire manuellement :
+─────────────────────────────────────────────────────────────
+Le fichier .frm définit le code mais pas les contrôles visuels
+(limitation de l'import hors Excel natif).
+
+Double-cliquez sur frmAction dans l'arborescence.
+La fenêtre de design s'ouvre. Ajoutez les contrôles suivants
+(Affichage → Boîte à outils) dans l'ordre :
+
+  NOM DU CONTRÔLE     TYPE          LÉGENDE / PROPRIÉTÉS
+  ─────────────────── ─────────────────────────────────────
+  lblTitre            Label         "NOUVELLE ACTION" — gras, taille 12
+  lblID               Label         "Identifiant"
+  txtID               TextBox       ReadOnly = True
+  lblDescription      Label         "Description *"
+  txtDescription      TextBox       MultiLine = True, Height = 50
+  lblDossier          Label         "Dossier lié"
+  cboDossier          ComboBox      Style = 2 (DropDownList)
+  lblResponsable      Label         "Responsable *"
+  txtResponsable      TextBox
+  lblStatut           Label         "Statut *"
+  cboStatut           ComboBox      Style = 2 (DropDownList)
+  lblPriorite         Label         "Priorité"
+  cboPriorite         ComboBox      Style = 2 (DropDownList)
+  lblEcheance         Label         "Échéance (JJ/MM/AAAA)"
+  txtEcheance         TextBox
+  lblInterlocut       Label         "Interlocuteur externe"    ← masqué par défaut
+  txtInterlocut       TextBox                                  ← masqué par défaut
+  lblDateEnvoi        Label         "Date d'envoi (JJ/MM/AAAA)"← masqué par défaut
+  txtDateEnvoi        TextBox                                  ← masqué par défaut
+  txtNotes            TextBox       MultiLine = True, Height = 60, ScrollBars = 2
+  lblNotes            Label         "Notes / Commentaires"
+  cmdEnregistrer      CommandButton "💾  Enregistrer"
+  cmdRechercher       CommandButton "🔍  Modifier une action existante"
+  cmdAnnuler          CommandButton "Annuler"
+
+Pour lblInterlocut, txtInterlocut, lblDateEnvoi, txtDateEnvoi :
+  → Propriété Visible = False (ils apparaissent automatiquement
+    quand le statut "Attente externe" est sélectionné)
+
+
+═══════════════════════════════════════════════════════
+  ÉTAPE 5 — AJOUTER LE BOUTON SUR LE DASHBOARD
+═══════════════════════════════════════════════════════
+1. Retournez sur l'onglet Dashboard
+2. Onglet Développeur → Insérer → Contrôles de formulaire
+   → cliquez sur "Bouton"
+3. Dessinez le bouton dans la zone H1:H2 (coin haut-droite)
+4. Boîte "Affecter une macro" → choisissez :
+   AfficherFormulaireAction → OK
+5. Clic droit sur le bouton → Modifier le texte
+   → tapez :  ➕ Nouvelle action
+
+
+═══════════════════════════════════════════════════════
+  FONCTIONNEMENT DU FORMULAIRE
+═══════════════════════════════════════════════════════
+CRÉER une action :
+  → Cliquer sur ➕ Nouvelle action (Dashboard)
+  → L'ID est généré automatiquement (ACT-007, etc.)
+  → Remplir les champs, cliquer Enregistrer
+  → L'action apparaît dans l'onglet Actions
+  → Le Dashboard se met à jour immédiatement
+
+MODIFIER une action existante :
+  → Cliquer sur ➕ Nouvelle action
+  → Cliquer sur "🔍 Modifier une action existante"
+  → Saisir l'ID (ex: ACT-003)
+  → Les champs se pré-remplissent
+  → Modifier, Enregistrer
+
+CHAMPS EXTERNES (apparaissent automatiquement) :
+  → Sélectionner le statut "Attente externe"
+  → Les champs Interlocuteur et Date d'envoi apparaissent
+
+
+═══════════════════════════════════════════════════════
+  PROTECTION DU FICHIER (recommandée)
+═══════════════════════════════════════════════════════
+Fichier → Informations → Protéger le classeur
+→ Chiffrer avec un mot de passe
+→ Chiffrement AES-256 natif Excel
+
+Note : les macros restent actives même avec le classeur chiffré.
+Pour protéger aussi le code VBA :
+  Alt+F11 → Outils → Propriétés de VBAProject
+  → onglet Protection → cocher "Verrouiller le projet"
+
+
+═══════════════════════════════════════════════════════
+  MIGRATION FUTURE VERS POWER QUERY
+═══════════════════════════════════════════════════════
+La structure de l'onglet Actions est conçue pour être
+compatible avec Power Query sans modification :
+  - Une ligne = une action
+  - En-têtes fixes en ligne 2
+  - Colonnes nommées sans fusion
+
+Quand vous souhaiterez basculer le Dashboard sur Power Query :
+  → Données → Obtenir des données → À partir du tableau/plage
+  → Pointer sur le tableau Actions
+  → Les colonnes L et M (helpers) peuvent être ignorées dans PQ
+  → Power Query remplacera les formules MATCH/INDEX du Dashboard
