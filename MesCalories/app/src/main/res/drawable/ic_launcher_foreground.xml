@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Une pomme stylisée -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,40c-4,-3 -9,-4 -13,-3c-8,2 -12,10 -11,19c1,10 7,20 13,23c3,1.5 6,1 8,0c2,-1 4,-1 6,0c2,1 5,1.5 8,0c6,-3 12,-13 13,-23c1,-9 -3,-17 -11,-19c-4,-1 -9,0 -13,3z" />
+    <path
+        android:fillColor="#FFC8E6C9"
+        android:pathData="M55,38c0,-6 3,-10 9,-12c1,5 -3,10 -9,12z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,40c0,-4 -1,-7 -3,-9" />
+</vector>

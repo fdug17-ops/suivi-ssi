@@ -1,0 +1,214 @@
+# nom;kcal;proteines;glucides;sucres;lipides;satures;fibres;sel;portion;grammes_portion (valeurs pour 100 g, moyennes type CIQUAL)
+Pain baguette;270;9;55;2.5;1.3;0.3;2.8;1.3;tranche;30
+Pain complet;245;9;44;3;2.5;0.5;7;1.2;tranche;35
+Pain de mie;265;8.5;48;5;3.8;0.7;3;1.2;tranche;25
+Pain aux céréales;260;10;43;3;5;0.8;6;1.2;tranche;35
+Biscotte;405;11;72;6;6.5;1;4.5;1.2;biscotte;8
+Croissant;415;8;45;10;22;14;2.2;1;croissant;50
+Pain au chocolat;420;7.5;47;15;22;13;2.5;0.9;pièce;65
+Brioche;365;8;50;14;14;8;2;0.8;tranche;35
+Céréales petit-déjeuner type corn flakes;380;7.5;84;8;1;0.2;3;1.6;bol;30
+Muesli;365;9.5;63;16;6.5;1.2;7.5;0.1;bol;45
+Flocons d'avoine;370;13.5;59;1;7;1.3;10;0;portion;40
+Riz blanc cuit;130;2.7;28;0.1;0.3;0.1;0.4;0;assiette;150
+Riz complet cuit;125;2.8;25;0.3;1;0.2;1.8;0;assiette;150
+Riz basmati cuit;135;3;29;0.1;0.4;0.1;0.6;0;assiette;150
+Pâtes cuites;150;5.2;29;0.8;0.9;0.2;2;0;assiette;180
+Pâtes complètes cuites;140;5.5;26;0.7;1.1;0.2;4;0;assiette;180
+Pâtes sèches crues;355;12.5;71;3;1.5;0.3;3;0;portion;80
+Riz cru;350;7;78;0.3;0.7;0.2;1.3;0;portion;70
+Semoule de couscous cuite;150;5;30;0.5;0.8;0.1;1.8;0;assiette;150
+Quinoa cuit;120;4.4;21;0.9;1.9;0.2;2.8;0;assiette;150
+Boulgour cuit;95;3.2;19;0.2;0.3;0;4.5;0;assiette;150
+Pomme de terre cuite à l'eau;80;2;17;0.8;0.1;0;1.8;0;pomme de terre;100
+Purée de pommes de terre;95;2;13;1.5;3.8;2.2;1.2;0.6;portion;200
+Frites;270;3.3;34;0.5;13;1.5;3;0.4;portion;150
+Patate douce cuite;85;1.5;18;6;0.2;0;2.5;0.1;portion;150
+Lentilles cuites;115;9;16;0.5;0.5;0.1;8;0;portion;150
+Pois chiches cuits;140;8;17;0.5;2.5;0.3;7.5;0;portion;150
+Haricots rouges cuits;115;8.5;14;0.5;0.6;0.1;8;0;portion;150
+Haricots blancs cuits;110;7;14;0.5;0.6;0.1;9;0;portion;150
+Petits pois cuits;80;5.5;10;3.5;0.4;0.1;5.5;0;portion;150
+Maïs doux en conserve;100;3;17;4;1.5;0.2;2.5;0.5;portion;80
+Blanc de poulet cuit;150;31;0;0;2.5;0.7;0;0.2;filet;120
+Cuisse de poulet rôtie;210;26;0;0;12;3.5;0;0.3;cuisse;150
+Dinde escalope cuite;140;30;0;0;2;0.6;0;0.2;escalope;120
+Bœuf steak haché 5% cuit;155;26;0;0;5.5;2.5;0;0.2;steak;100
+Bœuf steak haché 15% cuit;235;25;0;0;15;6.5;0;0.2;steak;100
+Bœuf entrecôte grillée;220;26;0;0;13;5.5;0;0.2;portion;150
+Bœuf bavette grillée;175;28;0;0;7;3;0;0.2;portion;150
+Porc côte grillée;220;28;0;0;12;4.5;0;0.2;côte;150
+Porc filet mignon cuit;150;27;0;0;4.5;1.5;0;0.2;portion;150
+Jambon blanc;115;20;0.8;0.6;3.5;1.2;0;1.9;tranche;45
+Jambon cru;250;27;0.5;0.3;15;5.5;0;5;tranche;20
+Lardons fumés cuits;330;17;0.5;0.5;29;11;0;2.6;portion;50
+Saucisson sec;420;26;2;1;34;13;0;4.8;tranche;8
+Saucisse de Toulouse cuite;290;17;1;0.5;24;9;0;1.8;saucisse;100
+Chipolata cuite;270;15;1.5;0.5;23;9;0;1.8;chipolata;50
+Merguez cuite;300;16;1.5;0.5;25;10;0;2.1;merguez;50
+Blanc de poulet en tranches;105;21;1;0.6;1.8;0.6;0;1.8;tranche;20
+Agneau gigot rôti;225;27;0;0;13;6;0;0.2;tranche;100
+Veau escalope cuite;145;31;0;0;2.5;1;0;0.2;escalope;120
+Canard magret cuit;230;25;0;0;14;5;0;0.2;portion;150
+Pâté de campagne;300;14;2;0.5;26;9.5;0;1.8;portion;40
+Saumon cuit;205;25;0;0;11.5;2.5;0;0.1;pavé;125
+Saumon fumé;180;22;0.5;0.3;10;2;0;3;tranche;25
+Cabillaud cuit;100;23;0;0;0.7;0.1;0;0.3;filet;150
+Thon au naturel en conserve;110;26;0;0;0.8;0.2;0;0.9;boîte égouttée;100
+Thon à l'huile égoutté;190;26;0;0;9.5;1.5;0;0.9;portion;100
+Sardines à l'huile égouttées;210;24;0;0;12.5;3;0;0.9;boîte;90
+Maquereau grillé;240;21;0;0;17;4;0;0.2;filet;100
+Crevettes cuites;95;20;0.5;0;1.3;0.3;0;1.5;portion;100
+Moules cuites;120;20;3.5;0;3;0.6;0;0.9;portion;150
+Surimi;105;7;17;5;1;0.2;0;1.7;bâtonnet;15
+Poisson pané cuit;220;12.5;19;1.5;10;1;1;0.8;pièce;30
+Œuf entier cuit;145;12.5;0.5;0.3;10;2.8;0;0.3;œuf;55
+Œuf blanc cuit;50;10.5;0.7;0.7;0.1;0;0;0.4;blanc;33
+Omelette nature;155;11;0.5;0.4;12;3.5;0;0.6;portion;120
+Tofu nature;125;13;1;0.5;7.5;1.2;1;0;portion;100
+Lait demi-écrémé;46;3.3;4.7;4.7;1.6;1;0;0.1;verre;200
+Lait écrémé;34;3.3;4.8;4.8;0.1;0.1;0;0.1;verre;200
+Lait entier;64;3.2;4.6;4.6;3.6;2.3;0;0.1;verre;200
+Boisson au soja nature;40;3.3;2;1;2;0.3;0.6;0.1;verre;200
+Boisson à l'avoine;45;0.6;7;4;1.5;0.2;0.8;0.1;verre;200
+Yaourt nature;60;4.2;5.2;5.2;2.2;1.4;0;0.1;pot;125
+Yaourt nature 0%;42;4.5;5.5;5.5;0.1;0.1;0;0.1;pot;125
+Yaourt aux fruits;95;3.5;14;13;2.5;1.6;0.3;0.1;pot;125
+Yaourt grec nature;125;5;4;4;10;6.5;0;0.1;pot;150
+Skyr nature;60;10;4;4;0.2;0.1;0;0.1;pot;150
+Fromage blanc 0%;48;7.5;4;4;0.2;0.1;0;0.1;portion;100
+Fromage blanc 3%;75;7;4;4;3.2;2;0;0.1;portion;100
+Petit-suisse nature;135;9;3;3;10;6.5;0;0.1;pot;60
+Crème dessert chocolat;125;3;19;16;3.5;2.3;0.5;0.2;pot;125
+Crème fraîche épaisse 30%;295;2.4;3;3;30;20;0;0.1;cuillère à soupe;15
+Crème fraîche légère 15%;165;3;4;4;15;10;0;0.1;cuillère à soupe;15
+Beurre;745;0.7;0.6;0.6;82;54;0;0.1;noix;10
+Beurre demi-sel;740;0.7;0.6;0.6;81;53;0;2;noix;10
+Margarine;540;0.2;0.5;0.5;60;20;0;0.8;noix;10
+Huile d'olive;900;0;0;0;100;14.5;0;0;cuillère à soupe;10
+Huile de colza;900;0;0;0;100;7.5;0;0;cuillère à soupe;10
+Huile de tournesol;900;0;0;0;100;11;0;0;cuillère à soupe;10
+Mayonnaise;700;1.3;1.5;1;77;6;0;1.4;cuillère à soupe;15
+Vinaigrette;450;0.3;3;2.5;48;4.5;0;2.5;cuillère à soupe;15
+Ketchup;110;1.3;24;22;0.2;0;0.8;2.2;cuillère à soupe;15
+Moutarde;150;7.5;4;2;11;0.6;3.5;6;cuillère à café;5
+Emmental;380;28;0.5;0;30;19;0;0.7;portion;30
+Comté;415;28;0;0;34;21;0;0.8;portion;30
+Camembert;270;20;0.5;0.3;21;14;0;1.4;portion;30
+Brie;330;20;0.5;0.3;28;17;0;1.4;portion;30
+Chèvre frais;200;11;3;3;16;11;0;0.8;portion;30
+Chèvre bûche;295;19;1;1;24;16;0;1.4;portion;30
+Mozzarella;250;18;1;1;19.5;13;0;0.5;boule;125
+Feta;270;16;1;1;22;14.5;0;2.7;portion;30
+Parmesan;400;35;0;0;29;18.5;0;1.6;cuillère à soupe;10
+Raclette;340;23;0.5;0.3;27;17;0;1.7;tranche;30
+Roquefort;360;20;0;0;31;20;0;3.5;portion;30
+Fromage fondu type crème de gruyère;245;10;6;5;20;13;0;1.9;portion;17
+Ricotta;145;9;3.5;3.5;10.5;7;0;0.2;portion;50
+Pomme;54;0.3;12;10.5;0.2;0;1.9;0;pomme;150
+Banane;90;1.1;20;16;0.3;0.1;2.2;0;banane;120
+Orange;45;0.9;9;8;0.2;0;2;0;orange;150
+Clémentine;48;0.8;10;9;0.2;0;1.7;0;clémentine;60
+Poire;55;0.4;12;10;0.3;0;3;0;poire;150
+Kiwi;60;1.1;11;9;0.6;0;3;0;kiwi;80
+Fraises;30;0.6;6;5;0.3;0;2;0;barquette;250
+Framboises;45;1.2;5;4.5;0.7;0;6.5;0;portion;125
+Myrtilles;55;0.7;11;10;0.3;0;2.5;0;portion;125
+Raisin;70;0.6;16;16;0.2;0;1;0;grappe;125
+Ananas;55;0.5;12;10;0.2;0;1.4;0;tranche;80
+Mangue;65;0.6;14;13;0.3;0;1.7;0;portion;150
+Pêche;40;0.8;8.5;8.5;0.2;0;1.4;0;pêche;150
+Abricot;45;0.8;9;9;0.2;0;2;0;abricot;45
+Cerises;60;1;13;13;0.3;0;1.6;0;portion;100
+Melon;35;0.8;7;7;0.2;0;0.9;0;tranche;150
+Pastèque;30;0.6;7;6.5;0.2;0;0.4;0;tranche;200
+Prune;50;0.7;10;9;0.2;0;1.8;0;prune;40
+Compote de pommes sans sucre ajouté;55;0.3;12;11;0.2;0;1.5;0;pot;100
+Avocat;165;1.8;1;0.4;15.5;3;5;0;demi-avocat;80
+Raisins secs;305;3;66;63;0.5;0.1;4.5;0;poignée;30
+Dattes séchées;290;2.5;66;64;0.3;0;7;0;datte;8
+Abricots secs;270;3.5;58;52;0.5;0;7;0;abricot;8
+Tomate;20;0.8;2.5;2.5;0.3;0;1.2;0;tomate;120
+Concombre;14;0.6;2;1.7;0.1;0;0.6;0;portion;100
+Carotte crue;36;0.8;7;5;0.2;0;2.5;0.1;carotte;100
+Carottes cuites;30;0.6;5;4;0.3;0;2.7;0.1;portion;150
+Courgette cuite;20;1;2.5;2;0.4;0.1;1.3;0;portion;150
+Brocoli cuit;30;2.5;2.5;1.3;0.5;0.1;2.6;0;portion;150
+Chou-fleur cuit;25;2;2.5;2;0.3;0.1;2.3;0;portion;150
+Haricots verts cuits;30;2;3.5;1.5;0.2;0;3.5;0;portion;150
+Épinards cuits;25;3;1.5;0.5;0.5;0.1;2.5;0.2;portion;150
+Salade verte;15;1.3;1.5;1;0.2;0;1.3;0;portion;50
+Poivron;30;0.9;5;4.5;0.3;0;2;0;poivron;150
+Aubergine cuite;30;1;4;3;0.3;0.1;3;0;portion;150
+Champignons de Paris cuits;25;3;1;0.5;0.4;0.1;2;0;portion;100
+Oignon;35;1.2;6;4;0.2;0;1.7;0;oignon;100
+Poireau cuit;25;1;3.5;2;0.3;0;2.5;0;portion;150
+Petits légumes poêlés surgelés;50;2;6;3;1.5;0.2;3;0.4;portion;200
+Ratatouille;55;1.2;5;4;3;0.4;2;0.6;portion;200
+Betterave cuite;45;1.7;8;7;0.1;0;2.5;0.2;portion;100
+Soupe de légumes;35;1;5;2;1;0.2;1.2;0.6;bol;250
+Gaspacho;45;0.8;4.5;3.5;2.5;0.4;1;0.6;verre;250
+Amandes;615;25;8;4.5;53;4;12.5;0;poignée;30
+Noix;700;15;7;2.5;67;6;6.5;0;poignée;30
+Noisettes;650;14;7;4.5;62;4.5;9;0;poignée;30
+Noix de cajou;590;19;26;6;48;9;3.5;0;poignée;30
+Cacahuètes grillées salées;610;26;11;4;50;8;8;1;poignée;30
+Pistaches;600;21;17;8;49;6;10;1;poignée;30
+Beurre de cacahuète;610;25;15;7;50;9;6.5;0.8;cuillère à soupe;15
+Graines de chia;490;17;8;0.5;31;3.5;34;0;cuillère à soupe;12
+Chocolat noir 70%;580;8;35;29;42;25;11;0;carré;10
+Chocolat au lait;555;7;55;53;33;20;2;0.2;carré;10
+Pâte à tartiner chocolat noisettes;540;6;57;56;31;10.5;3.5;0.1;cuillère à café;15
+Confiture;245;0.4;60;55;0.1;0;1;0;cuillère à soupe;20
+Miel;325;0.5;80;80;0;0;0;0;cuillère à café;10
+Sucre;400;0;100;100;0;0;0;0;morceau;5
+Sirop d'érable;260;0;67;60;0.1;0;0;0;cuillère à soupe;20
+Biscuit sec type petit-beurre;440;7.5;74;24;12;7.5;2.5;0.9;biscuit;8
+Cookie aux pépites de chocolat;490;5.5;64;34;23;12;2.5;0.7;cookie;12
+Gâteau au chocolat;400;5.5;48;34;20;11;2;0.4;part;80
+Tarte aux pommes;245;3;33;17;11;6;1.5;0.3;part;120
+Madeleine;445;6;52;28;23;13;1;0.7;madeleine;25
+Barre de céréales;400;6;68;30;11;4;5;0.4;barre;25
+Glace vanille;205;3.5;25;22;10;7;0;0.2;boule;50
+Crêpe nature;220;6.5;28;6;9;3;1;0.3;crêpe;60
+Gaufre;390;7;46;20;20;11;1.5;0.6;gaufre;50
+Chips;535;6;50;0.5;34;3;4.5;1.3;sachet;30
+Pop-corn salé;470;8;57;0.5;22;2.5;10;1.5;portion;30
+Pizza margherita;235;10;30;3;8;3.5;2;1.3;part;125
+Pizza jambon fromage;245;11;28;3;9.5;4.5;2;1.4;part;125
+Quiche lorraine;270;9.5;18;2;18;8.5;0.8;0.9;part;150
+Hamburger;250;13;27;5;10;4;1.5;1.1;burger;200
+Sandwich jambon beurre;265;12;33;2.5;9.5;5;2;1.7;sandwich;220
+Croque-monsieur;245;13;20;3;12;6;1.5;1.5;croque;150
+Lasagnes à la bolognaise;145;7.5;12;3;7.5;3.5;1.2;0.8;portion;300
+Hachis parmentier;125;6.5;9;1.5;7;3.5;1;0.6;portion;300
+Couscous royal;150;9;14;2;6.5;2;2;0.8;portion;400
+Chili con carne;120;8;10;2.5;5;2;3.5;0.8;portion;300
+Blanquette de veau;125;11;5;1;6.5;3;0.5;0.7;portion;300
+Bœuf bourguignon;120;14;3;1;6;2.5;0.6;0.7;portion;300
+Taboulé;160;3.5;22;3;6;0.8;2.5;0.8;portion;150
+Salade César;140;9;6;1.5;9;2.5;1;0.8;portion;250
+Sushi saumon;150;6;27;5;2;0.5;0.5;0.8;pièce;30
+Nems au porc;235;8;24;2;12;2.5;1.5;1;nem;50
+Kebab;220;12;22;2;9;3;1.5;1.2;kebab;350
+Houmous;300;7.5;14;0.5;23;2.5;6;1;cuillère à soupe;20
+Guacamole;155;1.6;5;1;14;2;4.5;0.8;portion;50
+Sauce tomate;50;1.5;7;5;1.5;0.2;1.5;0.8;portion;100
+Sauce bolognaise;100;6;6;4;5.5;2;1.5;0.9;portion;150
+Pesto;450;5;6;2;45;6.5;2;2;cuillère à soupe;15
+Eau;0;0;0;0;0;0;0;0;verre;250
+Café noir;2;0.2;0.3;0;0;0;0;0;tasse;100
+Thé;1;0;0.2;0;0;0;0;0;tasse;250
+Jus d'orange;45;0.7;10;9;0.1;0;0.2;0;verre;200
+Jus de pomme;45;0.1;11;10;0.1;0;0.1;0;verre;200
+Soda cola;42;0;10.6;10.6;0;0;0;0;canette;330
+Soda cola zéro;0.3;0;0;0;0;0;0;0;canette;330
+Limonade;40;0;10;10;0;0;0;0;verre;250
+Sirop dilué à l'eau;30;0;7.5;7.5;0;0;0;0;verre;250
+Bière blonde;43;0.4;3.5;0.2;0;0;0;0;demi;250
+Vin rouge;85;0.1;2.5;0.5;0;0;0;0;verre;125
+Vin blanc;80;0.1;2;0.6;0;0;0;0;verre;125
+Champagne;80;0.2;1.5;1;0;0;0;0;coupe;100
+Cappuccino;40;2;4;4;2;1.2;0;0.1;tasse;180
+Chocolat chaud;80;3.3;10;9;2.8;1.8;0.5;0.1;tasse;250
+Protéine whey en poudre;380;78;7;5;5;2.5;0;0.5;dose;30
